@@ -1,11 +1,20 @@
 import React from "react";
+import Greeting from "./components/Greeting";
+import Name from "./components/Name";
+import Message from "./components/Message";
+import "./App.css";
 
 // Functional component with JSX returned properly
-const App = () => {
+function App () {
   return (
     <div>
-      <h1>Chhit Chhit</h1>
-      <p>I am chit</p>
+      <h2>
+        <Greeting />
+      </h2>
+      <h2>
+        <Name />
+      </h2>
+      <h3><Message/></h3>
     </div>
   );
 };

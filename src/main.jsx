@@ -4,6 +4,7 @@ import App from "./App";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
+  //re-reder code d3 check
   <StrictMode>
     <App />
   </StrictMode>
